@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="292" height="103"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6O-Tu-CAh">
+                    <rect key="frame" x="0.0" y="0.0" width="146" height="49"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="49" id="xmz-nk-HXb"/>
+                    </constraints>
+                    <state key="normal" title="加入购物车"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ds8-xc-TI8">
+                    <rect key="frame" x="146" y="0.0" width="146" height="49"/>
+                    <color key="backgroundColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="立即购买"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ds8-xc-TI8" secondAttribute="trailing" id="AC2-i1-x5r"/>
+                <constraint firstItem="ds8-xc-TI8" firstAttribute="width" secondItem="r6O-Tu-CAh" secondAttribute="width" id="TKE-vm-BRc"/>
+                <constraint firstItem="r6O-Tu-CAh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="ggk-fi-tAo"/>
+                <constraint firstItem="ds8-xc-TI8" firstAttribute="height" secondItem="r6O-Tu-CAh" secondAttribute="height" id="hzV-rg-iP2"/>
+                <constraint firstItem="ds8-xc-TI8" firstAttribute="leading" secondItem="r6O-Tu-CAh" secondAttribute="trailing" id="nJ2-1c-lIj"/>
+                <constraint firstItem="r6O-Tu-CAh" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="t9d-h8-ePF"/>
+                <constraint firstItem="ds8-xc-TI8" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="xNB-AM-gMA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-67.200000000000003" y="193.85307346326837"/>
+        </view>
+    </objects>
+</document>
